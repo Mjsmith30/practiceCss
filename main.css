@@ -1,21 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
 #product-overview {
-    background: red;
-    font-family: 'Sansita Swashed', cursive;
-    }
+  background: red;
+  font-family: "Sansita Swashed", cursive;
+  width: 100%;
+  height: 528px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 5px;
+
+
+}
+
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    box-sizing: border-box;
 }
 
 .section-title {
-    color:green;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-
+  color: green;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 #product-overview h1 {
-    color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
