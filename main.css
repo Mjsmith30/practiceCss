@@ -84,5 +84,8 @@ body {
 
 .main-nav__item--cta a {
     color: white;
-    background: 
+    background: red;
+    border-radius: 8px;
+    padding: 8px 16px;
+
 }
