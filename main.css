@@ -14,6 +14,7 @@
 body {
     font-family: 'Piedra', cursive;
     box-sizing: border-box;
+    margin:0px;
 }
 
 .section-title {
@@ -85,7 +86,6 @@ body {
 .main-nav__item--cta a {
     color: white;
     background: red;
+    padding: 6px 6px;
     border-radius: 8px;
-    padding: 8px 16px;
-
 }
