@@ -97,21 +97,4 @@ body {
     border:none;
 }
 
-#box1 {
-    background:orange;
-    color:black;
-    padding: 16px 0px 16px 6px;
-    border: solid black 4px;
-    margin: 4px 280px 4px  280px;
-    height:100%;
 
-}
-
-#box2 {
-    background:orange;
-    color:black;
-    padding: 16px 0px 16px 6px;
-    border: solid black 4px;
-    margin: 4px 280px 4px  280px;
-
-}
