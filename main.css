@@ -27,6 +27,12 @@ body {
   font-family: "Piedra", cursive;
 }
 
+.plan__list {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
 .plan {
   background-color: #2ddf5c;
   text-align: center;
