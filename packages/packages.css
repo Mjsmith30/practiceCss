@@ -3,6 +3,12 @@ main {
 
 }
 
+.background{
+   background: url("../images/plans-background.jpg");
+   width: 500px;
+   height: 500px;
+}
+
 .package {
     width:80%;
     margin: 16px 0;
