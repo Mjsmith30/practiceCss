@@ -16,6 +16,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
   }
   
   
@@ -35,6 +36,8 @@
     display: inline-block;
     text-align: right;
     width: calc(100% - 75px);
+    
+    
   }
   
   .main-nav__item {
