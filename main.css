@@ -4,7 +4,8 @@
 
 #product-overview {
   background: linear-gradient(to top, rgba(80,68,18,0.6) 10%,transparent),
-   url("freedom.jpg") left 10% bottom 20%/cover no-repeat border-box;
+   url("freedom.jpg") left 10% bottom 20%/cover no-repeat border-box, red;
+/* commented out to add into background */
   /* background-size: cover; */
   /* background-repeat: no-repeat;
   background-position: center; */
