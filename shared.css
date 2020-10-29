@@ -26,7 +26,13 @@
     text-decoration: overline underline;
     font-weight: bold;
     font-size: 22px;
+    height: 22px;
     font-family: "Piedra", cursive;
+    display: inline-block;
+  }
+
+  .main-header__brand img {
+      height: 100%;
   }
   
   .main-header > div {
