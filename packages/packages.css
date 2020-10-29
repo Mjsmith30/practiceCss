@@ -32,6 +32,7 @@ main {
     color: inherit;
     display: block;
     padding: 32px;
+  
 }
 
 .package-badge {
@@ -44,7 +45,7 @@ main {
     color: white;
     background: #ff5454;
     padding: 8px;
-    z-index: 10;
+
   
 }
 

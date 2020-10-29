@@ -9,14 +9,16 @@
   height: 528px;
   padding: 10px;
   margin-top: 43px;
+  position: relative;
   
 }
 
 #product-overview h1 {
     padding: 16px;
     position: absolute;
-    top: 70%;
-    left: 16px;
+    left: 3%;
+    bottom:5%;
+
 }
 
 body {
