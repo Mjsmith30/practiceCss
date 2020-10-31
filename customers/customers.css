@@ -1,3 +1,13 @@
+
+
+body {
+    /* font-family: "Sansita Swashed", cursive; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    margin: 0px;
+    font-weight: bold;
+    
+}
+
 .testimonial {
     font-size: 20px;
     margin: 48px 0;
@@ -33,6 +43,7 @@
     padding: 14px;
     display: inline-block;
     vertical-align: middle;
+    width:20%;
   }
   
   #customer-2.testimonial {

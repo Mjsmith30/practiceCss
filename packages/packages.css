@@ -3,6 +3,13 @@ main {
 
 }
 
+body {
+    font-family: "Sansita Swashed", cursive;
+    box-sizing: border-box;
+    margin: 0px;
+    
+  }
+
 .background{
    background: url("../images/plans-background.jpg") center/cover;
    filter: grayscale(60%);
