@@ -1,8 +1,8 @@
 var backdrop = document.querySelector('.backdrop');
 var modal = document.querySelector('.modal');
 var selectPlanButtons = document.querySelectorAll('.plan button');
-var modalNoButton = document.querySelector('.modal__actions .modal__action--negative');
-console.log(modalNoButton);
+var modalNoButton = document.querySelector('.modal__action--negative');
+
     for (var i = 0; i < selectPlanButtons.length; i++){
         selectPlanButtons[i].addEventListener('click', function(){
             modal.style.display = 'block';
@@ -10,12 +10,18 @@ console.log(modalNoButton);
             
         });
     }
-
-    for (var i = 0; i < modalNoButton.length; i++) {
-        modalNoButton[i].addEventListener('click', function(){
-           modalNoButton.style.display = 'none';
+    backdrop.addEventListener ('click', function(){
+           backdrop.style.display = 'none';
+           modal.style.display = 'none';
         });
-        
-    }
-
+   
+    modalNoButton.addEventListener('click', function() {  
+           backdrop.style.display = 'none';
+           modal.style.display = 'none';
+        });
+    
+        function closeModal(){
+            backdrop.style.display = 'none';
+            modal.style.displplay= 'none';
+        }
   
