@@ -2,6 +2,9 @@ var backdrop = document.querySelector('.backdrop');
 var modal = document.querySelector('.modal');
 var selectPlanButtons = document.querySelectorAll('.plan button');
 var modalNoButton = document.querySelector('.modal__action--negative');
+var toggleButton = document.querySelector('.toggle-button');
+var mobileNav = document.querySelector('.mobile-nav');
+
 
     for (var i = 0; i < selectPlanButtons.length; i++){
         selectPlanButtons[i].addEventListener('click', function(){
@@ -11,17 +14,19 @@ var modalNoButton = document.querySelector('.modal__action--negative');
         });
     }
     backdrop.addEventListener ('click', function(){
-           backdrop.style.display = 'none';
-           modal.style.display = 'none';
+           mobileNav.style.display = 'none';
+           closeModal();
         });
    
-    modalNoButton.addEventListener('click', function() {  
-           backdrop.style.display = 'none';
-           modal.style.display = 'none';
-        });
+    modalNoButton.addEventListener('click', closeModal);
     
         function closeModal(){
             backdrop.style.display = 'none';
-            modal.style.displplay= 'none';
+            modal.style.display= 'none';
         }
   
+    toggleButton.addEventListener('click', function(){
+            mobileNav.style.display ='block';
+            backdrop.style.display = 'block';
+
+        });

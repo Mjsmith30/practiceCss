@@ -46,7 +46,7 @@
     left: 0;
     z-index: 1;
   }
-  
+
   .toggle-button {
     width: 3rem;
     background: transparent;
@@ -78,6 +78,7 @@
     height: 22px;
     /* font-family: "Piedra", cursive; */
     display: inline-block;
+    vertical-align: middle;
   }
 
   .main-header__brand img {
@@ -91,7 +92,7 @@
   .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 75px);
+    width: calc(100% - 122px);
     
     
   }
