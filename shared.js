@@ -24,9 +24,9 @@ if (modalNoButton) {
 function closeModal() {
   // backdrop.style.display = 'none';
   // modal.style.display= 'none';
-if (modalNoButton){
-  modal.classList.remove("open");
-}
+  if (modalNoButton) {
+    modal.classList.remove("open");
+  }
   backdrop.classList.remove("open");
 }
 
