@@ -242,7 +242,7 @@ body {
 
 .main-footer__link a:hover,
 .maing-footer__link a:active {
-  color: rgb(121, 118, 118);
+  color: grey;
 }
 
 .modal {
