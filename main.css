@@ -6,7 +6,7 @@ body {
 }
 #product-overview {
   background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
-    url("images/htew.jpg") left 10% bottom 20%/cover no-repeat border-box,
+    url("images/htew.jpg") center/cover no-repeat border-box,
     #ff1b68;
   /* background-image: url("freedom.jpg");
     background-size: cover;
@@ -39,22 +39,23 @@ body {
     height:40vh;
     background-position: 50% 25%;
   }
-}
+
 
   #product-overview h1 {
     font-size: 3rem;
   }
+}
 
 
 
-@media (min-width: 60rem){
-  #product-overview h1 {
+@media (min-width: 40rem){
+  #product-overview  {
     height: 50vh;
     background-position: 50% 25%;
 
   }
   #product-overview h1 {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
 }
