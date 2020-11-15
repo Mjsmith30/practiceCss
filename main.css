@@ -34,7 +34,7 @@ body {
 
 }
 
-@media (min-width: 40rem) and (orientation: portrait){
+@media (min-width: 40rem) and (min-height:40rem){
   #product-overview  {
     height:40vh;
     background-position: 50% 25%;
@@ -173,13 +173,6 @@ body {
   color: white;
   font-size: 20px;
 }
-
-/* h1 {
-    font-family: sans-serif;
-} */
-
-
-
 
 .button {
   background-color: darkgreen;

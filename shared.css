@@ -75,14 +75,14 @@
     color: #f3722e;
     text-decoration: overline underline;
     font-weight: bold;
-    font-size: 1.75rem;
+    height: 2.5rem;
     /* font-family: "Piedra", cursive; */
     display: inline-block;
     vertical-align: middle;
   }
 
   .main-header__brand img {
-      height: 2.5rem;
+      height: 100%;
   }
   
   .main-header > div {
