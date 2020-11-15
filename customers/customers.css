@@ -1,8 +1,5 @@
-body {
-  /* font-family: "Sansita Swashed", cursive; */
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 0px;
-  font-weight: bold;
+main {
+  padding-top: 0.5rem;
 }
 
 .testimonial {
@@ -84,3 +81,10 @@ body {
   }
   
 }
+
+/* body { */
+  /* font-family: "Sansita Swashed", cursive; */
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
+  font-weight: bold; */
+/* } */
