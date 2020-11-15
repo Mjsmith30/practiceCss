@@ -99,12 +99,22 @@ body {
 @media (min-width: 40rem){
     main {
     margin: 3rem auto;
-    max-width: 1500px;
+    max-width: 1200px;
   }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1200px) {
   .package {
     border-left: 4px solid #0e4f1f;
   }
+  #free {
+    border-right:4px solid #0e4f1f;
+  }
+  
+  #free:hover,
+  #free:active {
+    border-right-color: #ff4454;;
+  
+  }
+  
 }

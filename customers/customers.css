@@ -69,7 +69,7 @@ body {
 @media (min-width: 40rem){
   .testimonial {
     margin: 3rem 0;
-    max-width: 150rem;
+    max-width: 1200px;
   }
   .testimonial__image-container {
     width: 66%;
