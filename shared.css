@@ -9,11 +9,21 @@
   body {
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-areas: "header"
+                          "main"
+                          "footer";
+   
+    grid-template-rows: 3.5rem auto fit-content(8rem);
+    /* padding-top: 3.5rem ; */
+    height: 100%;
+
   }
 
   main{
-    min-height: calc(100vh - 3.5rem - 8rem);
+    /* min-height: calc(100vh - 3.5rem - 8rem); */
     margin-top: 3.5rem;
+    grid-area: main;
   }
 
   .backdrop {    
@@ -52,6 +62,7 @@
     display: flex; 
     align-items: center;
     justify-content: space-between;
+    grid-area: header;
   }
 
   .toggle-button {
@@ -142,6 +153,7 @@
       background-color: black;
       padding: 2rem;
       margin-top: 3rem;
+      grid-area: footer;
   }
   
   .main-footer__links {
