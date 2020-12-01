@@ -182,25 +182,6 @@ body {
   font-size: 20px;
 }
 
-.button {
-  background-color: darkgreen;
-  color: white;
-  font: inherit;
-  padding: 8px;
-  border: 1.5px solid #0e4f1f;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-.button:hover,
-.button:active {
-  background: white;
-  color: #0e4f1f;
-}
-
-.buton:focus {
-  outline: none;
-}
 
 .modal {
   position: fixed;
