@@ -222,7 +222,7 @@ main {
   cursor: pointer;
 }
 
-.button:hover,
+button:hover,
 .button:active {
   background: white;
   color: #0e4f1f;
