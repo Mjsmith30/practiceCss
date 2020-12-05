@@ -45,7 +45,7 @@ main {
   position: fixed;
   top: 0;
   left: 0;
-  background: #2ddf5c;
+  background: #dfcd2d;
   padding: 0.5rem 1rem;
   z-index: 60;
   display: flex;
@@ -76,7 +76,7 @@ main {
 }
 
 .main-header__brand {
-  color: #0e4f1f;
+  color: #7a0471;
   text-decoration: none;
   font-weight: bold;
   /* width: 20px; */
@@ -85,6 +85,9 @@ main {
 .main-header__brand img {
   height: 2.5rem;
   vertical-align: middle;
+  background: url("images/HTEW (1).png");
+  border: #7a0471 solid;
+  border-radius: 50%;
   /* width: 100%; */
 }
 
@@ -106,7 +109,7 @@ main {
 .main-nav__item a,
 .mobile-nav__item a {
   text-decoration: none;
-  color: #0e4f1f;
+  color: #dfcd2d;
   font-weight: bold;
   padding: 0.2rem 0;
 }
@@ -124,7 +127,7 @@ main {
 .main-nav__item--cta a,
 .mobile-nav__item--cta a {
   color: white;
-  background: #ff1b68;
+  background: #7a0471;
   padding: 0.5rem 1rem;
   border-radius: 8px;
 }
@@ -133,7 +136,7 @@ main {
 .main-nav__item--cta a:active,
 .mobile-nav__item--cta a:hover,
 .mobile-nav__item--cta a:active {
-  color: #ff1b68;
+  color: #7a0471;
   background: white;
   border: none;
 }
@@ -212,7 +215,7 @@ main {
 }
 
 .button {
-  background: #0e4f1f;
+  background: #7a0471;
   color: white;
   font: inherit;
   border: 1.5px solid #0e4f1f;
@@ -225,7 +228,7 @@ main {
 button:hover,
 .button:active {
   background: white;
-  color: #0e4f1f;
+  color: #7a0471;
 }
 
 .button:focus {
