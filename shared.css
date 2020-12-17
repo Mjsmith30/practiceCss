@@ -2,9 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Anton');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
-:root {
-  --dark-purple: #7a0471;
-}
 * {
   box-sizing: border-box;
 }
@@ -79,7 +76,7 @@ main {
 }
 
 .main-header__brand {
-  color: var(--dark-purple);
+  color: #7a0471;
   text-decoration: none;
   font-weight: bold;
   /* width: 20px; */
@@ -89,7 +86,7 @@ main {
   height: 2.5rem;
   vertical-align: middle;
   background: url("images/HTEW (1).png");
-  border: var(--dark-purple) solid;
+  border: #7a0471 solid;
   border-radius: 50%;
   /* width: 100%; */
 }
@@ -112,7 +109,7 @@ main {
 .main-nav__item a,
 .mobile-nav__item a {
   text-decoration: none;
-  color: var(--dark-purple);
+  color: #7a0471;
   font-weight: bold;
   padding: 0.2rem 0;
 }
@@ -130,7 +127,7 @@ main {
 .main-nav__item--cta a,
 .mobile-nav__item--cta a {
   color: white;
-  background: var(--dark-purple);
+  background: #7a0471;
   padding: 0.5rem 1rem;
   border-radius: 8px;
 }
@@ -139,7 +136,7 @@ main {
 .main-nav__item--cta a:active,
 .mobile-nav__item--cta a:hover,
 .mobile-nav__item--cta a:active {
-  color: var(--dark-purple);
+  color: #7a0471;
   background: white;
   border: none;
 }
@@ -218,7 +215,7 @@ main {
 }
 
 .button {
-  background: var(--dark-purple);
+  background: #7a0471;
   color: white;
   font: inherit;
   border: 1.5px solid #0e4f1f;
@@ -231,7 +228,7 @@ main {
 button:hover,
 .button:active {
   background: white;
-  color: var(--dark-purple);
+  color: #7a0471;
 }
 
 .button:focus {
