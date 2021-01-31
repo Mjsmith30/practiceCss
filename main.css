@@ -134,11 +134,13 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+ 
 }
 
 .plan__feature {
   margin: 0.5rem 0;
 }
+
 
 @media (min-width: 40rem) {
   .plan__list { 
@@ -146,6 +148,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
   }
 
   .plan {
@@ -155,12 +158,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 28rem;
+    height: 45rem;
   }
 
   .plan--highlighted {
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
-    height: 30rem;
+    height: 50rem;
     z-index: 50;
   }
 }
